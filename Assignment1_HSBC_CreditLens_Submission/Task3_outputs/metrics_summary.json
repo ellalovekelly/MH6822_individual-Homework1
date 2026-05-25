@@ -1,0 +1,74 @@
+{
+  "auc": 0.6713748067833061,
+  "approval_rate": 0.2635416666666667,
+  "overall_default_rate": 0.051,
+  "jurisdiction": {
+    "US": {
+      "approval_reference": 0.26283048211508553,
+      "approval_comparison": 0.15,
+      "adverse_impact_ratio": 0.5707100591715977,
+      "equal_opportunity_diff": -0.11475922451532206,
+      "fpr_gap": 0.11475922451532217,
+      "group_metrics": [
+        {
+          "protected_group": "comparison_group",
+          "n": 260,
+          "approval_rate": 0.15,
+          "false_negative_rate": 0.07142857142857142,
+          "false_positive_rate": 0.8455284552845529,
+          "true_positive_rate_good": 0.15447154471544716
+        },
+        {
+          "protected_group": "reference_group",
+          "n": 643,
+          "approval_rate": 0.26283048211508553,
+          "false_negative_rate": 0.05263157894736842,
+          "false_positive_rate": 0.7307692307692307,
+          "true_positive_rate_good": 0.2692307692307692
+        }
+      ]
+    },
+    "HK": {
+      "approval_reference": 0.33422818791946307,
+      "approval_comparison": 0.1801470588235294,
+      "adverse_impact_ratio": 0.5389942121426884,
+      "equal_opportunity_diff": -0.16816370713282205,
+      "fpr_gap": 0.16816370713282203,
+      "group_metrics": [
+        {
+          "protected_group": "comparison_group",
+          "n": 272,
+          "approval_rate": 0.1801470588235294,
+          "false_negative_rate": 0.19230769230769232,
+          "false_positive_rate": 0.8211382113821138,
+          "true_positive_rate_good": 0.17886178861788618
+        },
+        {
+          "protected_group": "reference_group",
+          "n": 745,
+          "approval_rate": 0.33422818791946307,
+          "false_negative_rate": 0.10256410256410256,
+          "false_positive_rate": 0.6529745042492918,
+          "true_positive_rate_good": 0.34702549575070823
+        }
+      ]
+    }
+  },
+  "top_model_drivers": {
+    "annual_income": -0.5087,
+    "debt_to_income": 0.3788,
+    "credit_utilization": 0.2635,
+    "recent_inquiries": 0.1729,
+    "credit_history_months": -0.1444,
+    "delinquencies_24m": 0.1426
+  },
+  "sample_adverse_action_reasons": {
+    "annual_income": 0.26,
+    "recent_inquiries": 0.244,
+    "delinquencies_24m": 0.113
+  },
+  "drift_adverse_impact_ratio": {
+    "US": 0.5707100591715977,
+    "HK": 0.4213800904977375
+  }
+}

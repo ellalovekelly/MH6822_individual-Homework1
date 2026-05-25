@@ -1,0 +1,55 @@
+{
+  "auc": 0.6713748067833061,
+  "summary": [
+    {
+      "jurisdiction": "US",
+      "regulatory_focus": "ECOA / Regulation B fair lending and adverse-action notices",
+      "adverse_impact_ratio": 0.5707100591715977,
+      "equal_opportunity_diff": -0.11475922451532206,
+      "flag_disparity": true,
+      "flag_equal_opportunity": true,
+      "human_review_rate": 0.14839424141749724
+    },
+    {
+      "jurisdiction": "HK",
+      "regulatory_focus": "HKMA AI governance, proportionality, consumer credit data and privacy controls",
+      "adverse_impact_ratio": 0.5389942121426884,
+      "equal_opportunity_diff": -0.16816370713282205,
+      "flag_disparity": true,
+      "flag_equal_opportunity": true,
+      "human_review_rate": 0.2497541789577188
+    }
+  ],
+  "sensitivity": [
+    {
+      "pd_shift": -0.05,
+      "US": 0.5371847414880202,
+      "HK": 0.5588129648411089
+    },
+    {
+      "pd_shift": -0.025,
+      "US": 0.5495726495726496,
+      "HK": 0.5386642156862745
+    },
+    {
+      "pd_shift": 0.0,
+      "US": 0.5707100591715977,
+      "HK": 0.5389942121426884
+    },
+    {
+      "pd_shift": 0.025,
+      "US": 0.5495726495726496,
+      "HK": 0.4543316141622525
+    },
+    {
+      "pd_shift": 0.05,
+      "US": 0.6009345794392523,
+      "HK": 0.40007435558493054
+    },
+    {
+      "pd_shift": 0.075,
+      "US": 0.5428705440900563,
+      "HK": 0.3857705053852527
+    }
+  ]
+}
